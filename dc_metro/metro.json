@@ -1,0 +1,9 @@
+station-hierarchy: {
+  1: base-station-url
+  2: main-station-url
+  3: interchange-station-url
+}
+
+routes: [
+  url,url,url,url
+]

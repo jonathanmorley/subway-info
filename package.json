@@ -1,0 +1,10 @@
+{
+  "name": "docker-fedora-hello",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello World app on fedora using docker",
+  "author": "Jonathan Morley <morley.jonathan@gmail.com>",
+  "dependencies": {
+    "express": "3.x"
+  }
+}
