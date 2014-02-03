@@ -11,28 +11,29 @@ Various subway systems
 ### List all Subways [GET]
 + Response 200 (application/json)
 
-        [
-            {
-                _id: "52eefc3eb7332070cf8ac574",
-                name: "Washington Metro",
-                href: "/dc-metro",
-                authority: {
-                    name: "Washington Metropolitan Area Transit Authority",
-                    url: "http://wmata.com"
+        
+            [
+              {
+                "_id": "52eefc3eb7332070cf8ac574",
+                "name": "Washington Metro",
+                "href": "/dc-metro",
+                "authority": {
+                  "name": "Washington Metropolitan Area Transit Authority",
+                  "url": "http://wmata.com"
                 },
-                location: {
-                    city: "Washington",
-                    subdivision: {
-                        name: "District of Columbia",
-                        code: "US-DC"
-                    },
-                    country: {
-                        name: "United States of America",
-                        code: "US"
-                    }
+                "location": {
+                  "city": "Washington",
+                  "subdivision": {
+                    "name": "District of Columbia",
+                    "code": "US-DC"
+                  },
+                  "country": {
+                    "name": "United States of America",
+                    "code": "US"
+                  }
                 }
-            }
-        ]
+              }
+            ]
 
 ## Subway [/{slug}]
 A single subway system object with all its details
