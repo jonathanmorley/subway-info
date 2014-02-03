@@ -1,10 +1,26 @@
 {
-  "name": "docker-fedora-hello",
-  "private": true,
+  "name": "subway-info",
   "version": "0.0.1",
-  "description": "Node.js Hello World app on fedora using docker",
+  "description": "Information on subway systems around the world",
   "author": "Jonathan Morley <morley.jonathan@gmail.com>",
+  "private": "true",  
+
+  "bugs": {
+    "email": "morley.jonathan@gmail.com"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jonathanmorley/subway-info.git"
+  },
+
+  "engines": {
+    "node": ">= v0.6"
+  },
+
   "dependencies": {
+    "mongodb": "1.2.14",
+    "monk": "0.7.1",
     "express": "3.x"
   }
 }
