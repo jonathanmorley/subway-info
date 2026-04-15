@@ -19,7 +19,7 @@
   },
 
   "dependencies": {
-    "mongodb": "1.2.14",
+    "mongodb": "1.4.40",
     "monk": "0.7.1",
     "express": "3.x"
   }
