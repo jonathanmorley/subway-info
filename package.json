@@ -21,6 +21,6 @@
   "dependencies": {
     "mongodb": "1.2.14",
     "monk": "0.7.1",
-    "express": "3.x"
+    "express": "5.x"
   }
 }
